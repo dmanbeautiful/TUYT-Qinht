@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            position: relative;
+            width: 220px;
+            height: 220px;
+            margin: 110px auto;
+        }
+
+        .back {
+            display: none;
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background: rgba(0, 0, 0, .5) url(images/man.jpg) no-repeat center center;
+        }
+
+        .box a:hover .back {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <a href="#">
+            <div class="back"></div>
+            <img src="images/7.jpg" style="width: 220px; height: 220px;">
+        </a>
+    </div>
+</body>
+
+</html>
